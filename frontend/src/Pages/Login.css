@@ -1,0 +1,94 @@
+.log{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 60%;
+    height: 75%;
+    -webkit-box-shadow: 0px 5px 33px -21px rgba(66, 68, 70, 0.69);
+    -moz-box-shadow: 0px 5px 33px -21px rgba(66, 68, 70, 0.69);
+    box-shadow: 0px 5px 33px -21px rgba(66, 68, 70, 0.69);
+    display: flex;
+    border-radius: 20px;
+}
+.left, .right{
+    padding-top: 20%;
+    top: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.or{
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    color: gray;
+    background-color: white;
+    font-weight: bold;
+}
+.line{
+    width: 0.5px;
+    height: 70%;
+    background-color: lightgray;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    margin: auto;
+    left: 5px;
+    z-index: -1;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.loginButton{
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.google{
+    background-color: #df4930;
+}
+.github{
+    background-color: #507cc0;
+}
+.facebook{
+    background-color: black;
+}
+input{
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.submit{
+    width: 200px;
+    background-color: rgba(128, 0, 128, 0.671);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.login-title{
+    position: absolute;
+    top: 140px;
+    
+}
